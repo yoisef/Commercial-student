@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    android:weightSum="5"
+    android:layoutDirection="rtl"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="0dp"
+        android:id="@+id/sora"
+        android:src="@drawable/asas"
+        android:layout_weight="2"
+        android:layout_height="150dp" />
+    <TextView
+        android:layout_width="0dp"
+        android:id="@+id/Material"
+        android:layout_weight="3"
+        android:textColor="#fff"
+        android:background="#424242"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_height="150dp" />
+</LinearLayout>

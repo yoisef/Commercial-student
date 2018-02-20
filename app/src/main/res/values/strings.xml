@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Commercial Student</string>
+    <string name="الاول">الترم الاول</string>
+    <string-array name="years">
+        <item>1 Year</item>
+        <item>2 Year</item>
+        <item>3 Year</item>
+        <item>4 Year</item>
+    </string-array>
+</resources>
